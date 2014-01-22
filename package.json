@@ -1,6 +1,12 @@
 {
   "name": "hatenagraphmobile",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "Hatena Graph for Android",
+  "author": {
+    "name": "bouzuya",
+    "email": "bouzuya@gmail.com",
+    "url": "http://bouzuya.net/"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -20,27 +26,28 @@
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-contrib-watch": "~0.5.2",
     "grunt-google-cdn": "~0.2.0",
+    "grunt-karma": "~0.6.2",
     "grunt-newer": "~0.5.4",
     "grunt-ngmin": "~0.0.2",
+    "grunt-phonegap": "~0.8.0",
     "grunt-rev": "~0.1.0",
     "grunt-svgmin": "~0.2.0",
     "grunt-usemin": "~2.0.0",
     "jshint-stylish": "~0.1.3",
-    "load-grunt-tasks": "~0.2.0",
-    "time-grunt": "~0.2.1",
-    "karma-ng-scenario": "~0.1.0",
-    "grunt-karma": "~0.6.2",
-    "karma-script-launcher": "~0.1.0",
+    "karma": "~0.10.9",
     "karma-chrome-launcher": "~0.1.2",
+    "karma-coffee-preprocessor": "~0.1.2",
     "karma-firefox-launcher": "~0.1.3",
     "karma-html2js-preprocessor": "~0.1.0",
     "karma-jasmine": "~0.1.5",
-    "karma-coffee-preprocessor": "~0.1.2",
-    "requirejs": "~2.1.10",
-    "karma-requirejs": "~0.2.1",
+    "karma-ng-html2js-preprocessor": "~0.1.0",
+    "karma-ng-scenario": "~0.1.0",
     "karma-phantomjs-launcher": "~0.1.1",
-    "karma": "~0.10.9",
-    "karma-ng-html2js-preprocessor": "~0.1.0"
+    "karma-requirejs": "~0.2.1",
+    "karma-script-launcher": "~0.1.0",
+    "requirejs": "~2.1.10",
+    "time-grunt": "~0.2.1",
+    "load-grunt-config": "~0.7.0"
   },
   "engines": {
     "node": ">=0.8.0"
