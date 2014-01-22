@@ -15,13 +15,13 @@ module.exports = function(grunt) {
       cordova: '.cordova',
       path: 'phonegap',
       plugins: ['org.apache.cordova.inappbrowser'],
-      platforms: [],
+      platforms: ['android'],
       verbose: false,
       releases: 'releases',
       releaseName: function(){
         var pkg = grunt.file.readJSON('package.json');
         return (pkg.name + '-' + pkg.version);
-      },
+      }
     }
   };
 };
