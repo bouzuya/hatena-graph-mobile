@@ -1,0 +1,3 @@
+[submodule "phonegap/www"]
+	path = phonegap/www
+	url = git@github.com:bouzuya/hatena-graph-mobile-phonegap-build.git
